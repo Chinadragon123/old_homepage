@@ -1,0 +1,130 @@
+.head_portrait {
+    opacity: 0;
+    transform: scale(0);
+    animation: fadeInAndScaleUp 1s forwards;
+}
+
+@keyframes fadeInAndScaleUp {
+    0% {
+        opacity: 0;
+        transform: scale(0);    
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.head_portrait img {
+    transition: transform 0.2s ease;
+    transform: scale(1);
+}
+
+.head_portrait img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes moveLeftIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+hr {
+    animation: moveLeftIn 1s forwards;
+}
+
+@keyframes floatDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav {
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.6s;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+button.Personal_space_button {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.7s;
+}
+
+button.Small_list_button {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.8s;
+}
+
+button.new-button {
+    opacity: 0;
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.2s;
+}
+
+p.alert-text {
+    opacity: 0;
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.3s;
+}
+
+button.Kook_community_button {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.9s;
+}
+
+button.Friendly_link_button {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: floatDown 0.5s forwards;
+    animation-delay: 1s;
+}
+
+.animated-button {
+    opacity: 0;
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.1s;
+}
+
+.Essential_app_button {
+    opacity: 0;
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.7s;
+}
+
+div h2 {
+    opacity: 0;
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.7s;
+}
+
+div p {
+    opacity: 0;
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.8s;
+}
+
+h4 {
+    opacity: 0;
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.8s;
+}

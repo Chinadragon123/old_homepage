@@ -110,7 +110,7 @@ document.getElementById('friendly-link-button').addEventListener('click', functi
     back_button.style.cursor = 'pointer'; // 鼠标悬停时显示指针
     back_button.style.fontSize = '14px'; // 设置字体大小
     back_button.onclick = function() {
-        window.location.href = 'homepage.html'; // 返回首页
+        window.location.href = 'index.html'; // 返回首页
     };
 
     // 将“返回”按钮添加到单独的div中

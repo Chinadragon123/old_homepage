@@ -111,6 +111,12 @@ button.Friendly_link_button {
     animation-delay: 0.7s;
 }
 
+.Python_download_pack {
+    opacity: 0;
+    animation: floatDown 0.5s forwards;
+    animation-delay: 0.8s;
+}
+
 div h2 {
     opacity: 0;
     animation: floatDown 0.5s forwards;

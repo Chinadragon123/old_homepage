@@ -109,3 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
          });
     }
 });
+
+document.getElementById("python-download-pack").addEventListener('click',function() {
+    window.location.href= "https://www.bilibili.com/opus/945860031807488003";
+});

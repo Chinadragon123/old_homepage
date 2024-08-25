@@ -63,7 +63,7 @@ document.getElementById('friendly-link-button').addEventListener('click', functi
     old_homepage_button.className = 'animated-button'; // 添加animated-button类
     old_homepage_button.style.backgroundColor = '#0070C0'; // 深一点的青蓝色
     old_homepage_button.style.color = 'white';
-    old_homepage_button.style.padding = '5px 10px'; // 添加一些内边距
+    old_homepage_button.style.padding = '10px 20px'; // 添加一些内边距
     old_homepage_button.style.border = 'none'; // 移除边框
     old_homepage_button.style.borderRadius = '5px'; // 圆角边框
     old_homepage_button.style.cursor = 'pointer'; // 鼠标悬停时显示指针
@@ -79,7 +79,7 @@ document.getElementById('friendly-link-button').addEventListener('click', functi
     web_navigation_button.className = 'animated-button'; // 添加animated-button类
     web_navigation_button.style.backgroundColor = '#F5A623'; // 深一点的黄色
     web_navigation_button.style.color = 'white';
-    web_navigation_button.style.padding = '5px 10px'; // 添加一些内边距
+    web_navigation_button.style.padding = '10px 20px'; // 添加一些内边距
     web_navigation_button.style.border = 'none'; // 移除边框
     web_navigation_button.style.borderRadius = '5px'; // 圆角边框
     web_navigation_button.style.cursor = 'pointer'; // 鼠标悬停时显示指针
@@ -104,7 +104,7 @@ document.getElementById('friendly-link-button').addEventListener('click', functi
     back_button.className = 'animated-button'; // 添加animated-button类
     back_button.style.backgroundColor = '#333'; // 深灰色
     back_button.style.color = 'white';
-    back_button.style.padding = '5px 10px'; // 添加一些内边距
+    back_button.style.padding = '10px 20px'; // 添加一些内边距
     back_button.style.border = 'none'; // 移除边框
     back_button.style.borderRadius = '5px'; // 圆角边框
     back_button.style.cursor = 'pointer'; // 鼠标悬停时显示指针

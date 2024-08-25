@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
               // 隐藏旧按钮
               essentialAppButton.style.display = 'none';
               document.getElementById('fan-kui').parentNode.removeChild(document.getElementById('fan-kui'));
+              document.getElementById('python-download-pack').parentNode.removeChild(document.getElementById('python-download-pack'));
 
               // 创建新按钮的容器
               var newButtonsContainer = document.createElement('div');

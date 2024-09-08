@@ -181,5 +181,6 @@ button.Python_download_pack:hover {
 }
 
 ::selection {
-    background-color: #ffffff;
+    background-color: transparent;
+    text-shadow: none;
 }

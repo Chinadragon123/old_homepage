@@ -179,3 +179,7 @@ button.Python_download_pack {
 button.Python_download_pack:hover {
     background-color: #e00000;
 }
+
+::selection {
+    background-color: #ffffff;
+}

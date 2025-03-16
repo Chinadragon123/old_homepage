@@ -70,7 +70,7 @@ document.getElementById('friendly-link-button').addEventListener('click', functi
     old_homepage_button.style.fontSize = '14px'; // 设置字体大小
     old_homepage_button.style.marginRight = '10px'; // 添加右侧间距
     old_homepage_button.onclick = function() {
-        window.location.href = 'https://chinadragon123.github.io/MyHomepage/';
+        window.location.href = 'https://chinadragon123.github.io/VeryOldHomepage/';
     };
 
     // 创建“网页导航站”按钮
